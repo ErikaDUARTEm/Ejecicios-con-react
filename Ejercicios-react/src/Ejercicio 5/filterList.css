@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Dancing+Script&display=swap');
+
+.list {
+    font-family: 'Climate Crisis', cursive;
+    font-family: 'Dancing Script', cursive;
+    size: 30px;
+    width: 60vw;
+    height: 60vh;
+    box-shadow: 3px 4px 2px 6px #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.input{
+    width: 200px;
+    height: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}

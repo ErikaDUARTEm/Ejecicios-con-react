@@ -1,0 +1,100 @@
+:root {
+    font-family: Inter, Avenir, Helvetica, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+
+    color-scheme: light dark;
+    color:rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+
+}  
+:root{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    width: 100%;
+}
+.form>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:6px;
+}
+[type="text"],
+[type="email"],
+textarea,
+
+button{
+    padding: 12px;
+}
+button {
+    display: block;
+    margin-top: 2em;
+    background-color: blueviolet;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.errorMessage{
+    background-color: rgb(200, 50, 50, 0.2);
+    color: rgb(200, 50, 50, 1);
+    padding: 4px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+label{
+    color:blueviolet;
+}
+.textarea{
+    resize:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    box-shadow: 2px 3px 3px 5px blueviolet;
+    width: 40vw;
+    height: 80vh;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.input{
+    width: 90%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
